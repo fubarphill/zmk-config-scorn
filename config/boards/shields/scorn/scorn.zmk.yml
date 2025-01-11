@@ -1,0 +1,14 @@
+file_format: "1"
+id: scorn
+name: Scorn
+type: shield
+url: https://github.com/fubarphill/Scorn
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - scorn_left
+  - scorn_right
