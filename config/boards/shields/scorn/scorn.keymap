@@ -39,13 +39,13 @@
                     display-name = "Num";
 // -----------------------------------------------------------------------------------------
 // |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |      |
-// | CLCK |     |     |     |     |     |   | LFT | DWN |  UP | RGT |     |      |
+// | CAPS |     |     |     |     |     |   | LFT | DWN |  UP | RGT |     |      |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     | DEL |
                         bindings = <
-   &trans   &kp N1   &kp N2    &kp N3   &kp N4   &kp N5    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &trans
-   &kp CLCK &trans   &trans    &trans   &trans   &trans    &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &trans   &trans   &trans    &trans   &trans   &trans    &trans   &trans   &trans &trans    &trans &trans
+   &trans   &kp N1   &kp N2    &kp N3   &kp N4   &kp N5    &kp N6   &kp N7   &kp N8  &kp N9    &kp N0  &trans
+   &kp CAPS &trans   &trans    &trans   &trans   &trans    &kp LEFT &kp DOWN &kp UP  &kp RIGHT &trans  &trans
+   &trans   &trans   &trans    &trans   &trans   &trans    &trans   &trans   &trans  &trans    &trans  &trans
                                &trans   &trans   &trans    &trans   &trans   &kp DEL
                         >;
                 };
